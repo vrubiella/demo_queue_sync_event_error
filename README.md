@@ -2,5 +2,11 @@
 demostrates error when executing events with sync driver on laravel 5.4
 
 
-just run testunit ExampleTest.php
+```bash
+
+composer install 
+
+vendor/bin/phpunit tests/Unit/ExampleTest.php
+ 
+```
 
