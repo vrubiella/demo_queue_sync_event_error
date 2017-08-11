@@ -5,8 +5,6 @@ namespace Tests\Unit;
 use App\Events\AppDomainUpdated;
 use App\Events\ProjectUpdated;
 use App\Jobs\ProjectSyncJob;
-use App\Models\App;
-use App\Models\Product;
 use App\Project;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseMigrations;

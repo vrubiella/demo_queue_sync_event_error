@@ -2,7 +2,6 @@
 
 namespace App\Jobs;
 
-use App\Models\App;
 use App\Project;
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
@@ -21,9 +20,8 @@ class ProjectSyncJob implements ShouldQueue
      *
      * @return void
      */
-    public function __construct(App $project)
+    public function __construct(Project $project)
     {
-        if (ends_with("","")) echo "Hola";
         $this->project = $project;
     }
 
