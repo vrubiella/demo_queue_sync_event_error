@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Log;
  * Date: 26/10/16
  * Time: 08:56
  */
-class JobEventSubscriber implements  ShouldQueue
+class JobEventSubscriber
 {
     use InteractsWithQueue;
 
